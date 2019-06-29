@@ -1,0 +1,9 @@
+{
+  "version": 2,
+  "name": "soulkitchen",
+  "builds": [{ "src": "api/**/*.js", "use": "@now/node" }],
+  "routes": [
+    { "src": "/publisher", "dest": "/api/publisher.js" },
+    { "src": "/subscriber", "dest": "/api/subscriber.js" }
+  ]
+}

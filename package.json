@@ -1,0 +1,14 @@
+{
+  "scripts": {
+    "test": "mocha ./test",
+    "dev": "now dev"
+  },
+  "dependencies": {
+    "dotenv": "^8.0.0",
+    "amqplib": "^0.5.3",
+    "moment": "^2.24.0",
+    "mocha": "^6.1.4",
+    "chai": "^4.2.0",
+    "sinon": "^7.3.2"
+  }
+}

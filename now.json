@@ -3,7 +3,10 @@
   "name": "soulkitchen",
   "builds": [{ "src": "api/**/*.js", "use": "@now/node" }],
   "routes": [
-    { "src": "/publisher", "dest": "/api/publisher.js" },
+    { "src": "/publisher", "dest": "/api/publisher.js", "methods": ["POST"] },
     { "src": "/subscriber", "dest": "/api/subscriber.js" }
-  ]
+  ],
+  "env": {
+    "SEEYOUINSPACE_URL": "https://seeyouinspace.herokuapp.com"
+  }
 }

@@ -1,7 +1,4 @@
-/**
- * @typedef Env
- * @property RABBITMQ_URL
- */
-export default {
-  RABBITMQ_URL: process.env.RABBITMQ_URL,
+module.exports = {
+  SEEYOUINSPACE_URL: process.env.SEEYOUINSPACE_URL,
+  TKN_SCRT: process.env.TKN_SCRT,
 };

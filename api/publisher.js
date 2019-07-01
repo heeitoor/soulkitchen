@@ -25,6 +25,7 @@ const handler = async (request, response) => {
 
     result = { ok: true };
   } catch (error) {
+    console.log(error);
     result = { ok: false };
   }
 
